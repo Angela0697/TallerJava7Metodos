@@ -13,6 +13,7 @@ public class Main {
 //        double promedio = Ejercicio2.calificaciones(65.5, 89.5, 52.5);
 //
 //        Ejercicio2.resultados(promedio);
+
         //Ejercicio3
 
         Ejercicio3.resultados();

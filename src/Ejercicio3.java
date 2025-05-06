@@ -13,8 +13,8 @@ public class Ejercicio3 {
     public static double dividir(int a, int b){
         return (double) a / b;
     }
-    public static double potencia(double base, double exponente) {
-        return Math.pow(base, exponente);
+    public static double potencia(int a, int b) {
+        return Math.pow(a, b);
     }
 
     public static void resultados() {
@@ -33,7 +33,6 @@ public class Ejercicio3 {
             System.out.println("Elija una opción: ");
             opcion = scanner.nextInt();
             int a, b;
-            double base, exponente;
 
             switch (opcion) {
                 case 1:
